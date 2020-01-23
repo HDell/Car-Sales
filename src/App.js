@@ -17,9 +17,9 @@ const App = (props) => {
 
 const mapStateToProps = state => {
     return {
-        additionalPrice: state.firstReducer.additionalPrice,
-        car: state.firstReducer.car,
-        additionalFeatures: state.firstReducer.additionalFeatures
+        additionalPrice: state.reducer.additionalPrice,
+        car: state.reducer.car,
+        additionalFeatures: state.reducer.additionalFeatures
     };
 };
 
@@ -27,15 +27,3 @@ export default connect(
     mapStateToProps,
     {buyItem, removeFeature}
 )(App);
-
-
-/*
-  const removeFeature = item => {
-    // dispatch an action here to remove an item
-  };
-
-  const buyItem = item => {
-    // dispatch an action here to add an item
-  };
-
- */

@@ -1,6 +1,4 @@
 import React from 'react';
-import { buyItem, removeFeature } from '../actions/firstActions';
-import {connect} from "react-redux";
 
 const AdditionalFeature = props => {
   return (

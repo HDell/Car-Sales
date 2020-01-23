@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { connect } from 'react-redux'; // HOC
+import React from 'react';
 
 import Header from './components/Header';
 import AddedFeatures from './components/AddedFeatures';

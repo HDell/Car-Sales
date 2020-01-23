@@ -1,10 +1,6 @@
 import { combineReducers } from 'redux';
-import { firstReducer } from './firstReducer';
-// import { carReducer } from './carReducer';
-// import { featuresReducer } from './featuresReducer';
+import { reducer } from './reducer';
 
 export default combineReducers({
-    firstReducer
-    // carReducer,
-    // featuresReducer
+    reducer
 });

@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
-import { connect } from 'react-redux'; // HOC
+import React from 'react';
 
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
-
-import {buyItem, removeFeature} from "./actions/firstActions";
-
 
 const Features = props => {
 
