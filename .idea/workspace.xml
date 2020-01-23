@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8698de7b-d847-4e78-9d2f-dd1de0f7ef0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Features.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Features.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdditionalFeature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdditionalFeature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/carReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/featuresReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/firstReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +17,7 @@
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/App.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="45">
@@ -63,7 +56,7 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/AddedFeature.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="90">
@@ -109,7 +102,7 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/AdditionalFeature.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="15">
@@ -118,9 +111,13 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/Total.js">
-                  <provider selected="true" editor-type-id="text-editor" />
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="165">
+                      <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                    </state>
+                  </provider>
                 </entry>
               </file>
             </leaf>
@@ -146,8 +143,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="465">
-                      <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+                    <state relative-caret-position="140">
+                      <caret line="33" column="135" selection-start-line="33" selection-start-column="135" selection-end-line="33" selection-end-column="135" />
                     </state>
                   </provider>
                 </entry>
@@ -174,7 +171,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>first</find>
+      <find>firstReducer</find>
     </findStrings>
+    <replaceStrings>
+      <replace>reducer</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -193,9 +194,9 @@
         <option value="$PROJECT_DIR$/src/Car.js" />
         <option value="$PROJECT_DIR$/src/components/AdditionalFeature.js" />
         <option value="$PROJECT_DIR$/src/Features.js" />
-        <option value="$PROJECT_DIR$/src/reducers/reducer.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/reducer.js" />
       </list>
     </option>
   </component>
@@ -245,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579740373190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579742275877" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -273,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579714183976</updated>
-      <workItem from="1579714185526" duration="15415000" />
+      <workItem from="1579714185526" duration="16982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15415000" />
+    <option name="totallyTimeSpent" value="16982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="133" width="1920" height="1080" extended-state="0" />
@@ -290,13 +291,13 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.24973376" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" />
@@ -337,13 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddedFeature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="92" lean-forward="true" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Features.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -355,26 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AdditionalFeature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Total.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddedFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -419,17 +393,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Total.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddedFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AdditionalFeature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddedFeature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="92" lean-forward="true" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="33" column="135" selection-start-line="33" selection-start-column="135" selection-end-line="33" selection-end-column="135" />
         </state>
       </provider>
     </entry>
