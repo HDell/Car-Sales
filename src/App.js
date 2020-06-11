@@ -1,48 +1,29 @@
 import React from 'react';
 
-import Header from './components/Header';
-import AddedFeatures from './components/AddedFeatures';
-import AdditionalFeatures from './components/AdditionalFeatures';
-import Total from './components/Total';
+import Car from './Car';
+import Features from './Features';
 
-const App = () => {
-  const state = {
-    additionalPrice: 0,
-    car: {
-      price: 26395,
-      name: '2019 Ford Mustang',
-      image:
-        'https://cdn.motor1.com/images/mgl/0AN2V/s1/2019-ford-mustang-bullitt.jpg',
-      features: []
-    },
-    additionalFeatures: [
-      { id: 1, name: 'V-6 engine', price: 1500 },
-      { id: 2, name: 'Racing detail package', price: 1500 },
-      { id: 3, name: 'Premium sound system', price: 500 },
-      { id: 4, name: 'Rear spoiler', price: 250 }
-    ]
-  };
+import { connect } from 'react-redux'; // HOC
+import { buyItem, removeFeature } from './actions/firstActions';
 
-  const removeFeature = item => {
-    // dispatch an action here to remove an item
-  };
-
-  const buyItem = item => {
-    // dipsatch an action here to add an item
-  };
-
+const App = (props) => {
   return (
     <div className="boxes">
-      <div className="box">
-        <Header car={state.car} />
-        <AddedFeatures car={state.car} />
-      </div>
-      <div className="box">
-        <AdditionalFeatures additionalFeatures={state.additionalFeatures} />
-        <Total car={state.car} additionalPrice={state.additionalPrice} />
-      </div>
+      <Car car={props.car} dispatch={props.removeFeature}/>
+      <Features car={props.car} prices={props.additionalPrice} features={props.additionalFeatures} dispatch={props.buyItem}/>
     </div>
   );
 };
 
-export default App;
+const mapStateToProps = state => {
+    return {
+        additionalPrice: state.reducer.additionalPrice,
+        car: state.reducer.car,
+        additionalFeatures: state.reducer.additionalFeatures
+    };
+};
+
+export default connect(
+    mapStateToProps,
+    {buyItem, removeFeature}
+)(App);
